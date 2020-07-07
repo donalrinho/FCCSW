@@ -11,7 +11,10 @@ Change content and for local testing, serve the page with
     jekyll serve --baseurl=
 ```
 
-and point your browser to `localhost:4000`.
+and point your browser to `localhost:4000`. If the above command does not work you can try by prepending `bundle exec`, i.e.
+```
+    bundle exec jekyll serve --baseurl=
+```
 
 ### Deploying
 
