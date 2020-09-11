@@ -1,0 +1,20 @@
+
+ChargeConj B_c- B_c+
+ChargeConj tau- tau+
+
+Decay B_c+
+      1.0 tau+ nu_tau PHSP;
+Enddecay
+CDecay B_c-
+
+Decay tau+
+      1.0 TAUOLA 5;
+Enddecay
+CDecay tau-
+
+End
+
+
+
+
+

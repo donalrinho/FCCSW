@@ -1,0 +1,25 @@
+
+ChargeConj D*- D*+
+ChargeConj tau- tau+
+
+Decay B0
+      1.0 D*- tau+ nu_tau ISGW2;
+Enddecay
+CDecay anti-B0
+
+Decay D*-
+      1.0 anti-D0 pi- VSS;
+Enddecay
+CDecay D*+
+
+Decay D0
+      1.0 K- pi+ PHSP;
+Enddecay
+CDecay anti-D0
+
+Decay tau+
+      1.0 TAUOLA 5;
+Enddecay
+CDecay tau-
+
+End
